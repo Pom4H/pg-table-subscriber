@@ -1,0 +1,33 @@
+{
+  "name": "pg-table-subscriber",
+  "version": "0.0.1",
+  "description": "Automatic subscription to PostgreSQL tables on top of LISTEN / NOTIFY functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "*",
+    "pg-listen": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pom4H/pg-table-subscriber.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "pg",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Roman Popov",
+    "email": "atfpom4h@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pom4H/pg-table-subscriber/issues"
+  },
+  "homepage": "https://github.com/Pom4H/pg-table-subscriber#readme"
+}
